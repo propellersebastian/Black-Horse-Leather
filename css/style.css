@@ -161,12 +161,12 @@ img{
     position: absolute;
     overflow: hidden;
     top: 0;
-    left: 0
+    left: 0;
 }
 
 .view img {
     display: block;
-    position: relative
+    position: relative;
 }
 
 .view h2 {
@@ -177,7 +177,7 @@ img{
     font-size: 17px;
     padding: 10px;
     background: rgba(20,7,2,0.8);
-    margin: 20px 0 0 0
+    margin: 20px 0 0 0;
 }
 
 .view p {
@@ -187,7 +187,7 @@ img{
     position: relative;
     color: #F2DBCD;
     padding: 10px 20px 20px;
-    text-align: center
+    text-align: center;
 }
 
 .view a.info {
