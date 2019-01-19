@@ -1,0 +1,152 @@
+/*body {
+	margin: 0;
+	background: #F2DBCD;
+}
+
+header {
+	margin: .5vw;
+	font-size: 0;
+	display: -ms-flexbox;
+	-ms-flexbox-wrap: wrap;
+	-ms-flexbox-direction: column;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	display: -webkit-box;
+	display: flex; 
+}
+
+header div {
+	-webkit-box-flex: auto;
+	-ms-flex: auto;
+	flex: auto;
+	width: 200px;
+	margin: .5vw;
+	margin-top: 300px;
+}
+
+header div img {
+	width: 100%;
+	height: auto;
+}
+	
+}
+
+@media screen and (max-width: 400px) {
+	header div {
+		margin: 0;
+	}
+
+	header {
+		padding: 0;
+	}
+}
+
+.effect {
+	transition: 0.5s;
+   
+}
+
+.effect:hover {
+	transform: scale(1.8);
+
+	
+}*/
+
+
+body {
+	margin: 0;
+	background: #F2DBCD;
+}
+
+header {
+	margin: .5vw;
+	font-size: 0;
+	flex-flow: row wrap;
+	display: flex; 
+	
+
+
+}
+
+header div {
+	
+	flex: auto;
+	width: 200px;
+	margin: .5vw;
+	
+
+}
+
+header div img {
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+/*@media screen and (max-width: 400px) {
+	header div {
+		margin: 0;
+	}
+
+	header {
+		padding: 0;
+	}
+}*/
+
+.effect1 {
+	transition: 0.5s;
+}
+
+.effect1:hover {
+	transform: scale(3) translate(110px,110px);
+}
+
+
+
+.effect2 {
+	transition: 0.5s;
+}
+
+.effect2:hover {
+	transform: scale(3) translate(110px,110px);
+}
+
+
+
+.effect3 {
+	transition: 0.5s;
+}
+
+.effect3:hover {
+	transform: scale(3) translate(0px,110px);
+}
+
+
+
+.effect4 {
+	transition: 0.5s;
+}
+
+.effect4:hover {
+	transform: scale(3) translate(-110px,110px);
+}
+
+
+
+.effect5 {
+	transition: 0.5s;
+}
+
+.effect5:hover {
+	transform: scale(3) translate(-110px,110px);
+}
+
+.description {
+	font-size:  55px;
+    text-align: center;
+	position: relative;
+	top: 200px;
+	font-family: sans-serif;
+}
