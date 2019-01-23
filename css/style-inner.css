@@ -1,15 +1,18 @@
 body {
     font-family: sans-serif;
+    background: #f2dbcd;
 }
 
 h1 {
     text-align: center;
-    color: forestgreen;
+    color: ​#140702;
     margin: 30px 0 50px;
+    text-transform: uppercase;
 }
 
 .gallery {
     margin: 10px 50px;
+   
 }
 
 .gallery img  {
@@ -22,3 +25,4 @@ h1 {
 .gallery img:hover {
 transform: scale(1.1);
 }
+
