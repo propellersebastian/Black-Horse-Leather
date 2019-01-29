@@ -1,30 +1,30 @@
 *{
-	padding: 0;
-	margin: 0;
-	font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
 }
 
 header {
-	background: url(../image/baceground.jpg);
+    background: url(../image/background.jpg);
     height: 600px;
 }
 
 
 .container {
-	width: 930px;
-	margin: 0 auto;
+    width: 930px;
+    margin: 0 auto;
 }
 
 nav {
-	float: right;
-	margin-top: 50px;
+    float: right;
+    margin-top: 50px;
 
 }
 
 .menu {
-	padding: 0;
-	margin: 0;
-	display: block;
+    padding: 0;
+    margin: 0;
+    display: block;
 
 }
 
@@ -35,14 +35,14 @@ nav {
 }
 
 .menu a {
-	color: #140702;
-	font-size: 15px;
-	text-decoration: none;
-	text-transform: uppercase;
-	padding: 5px;
-	background-color:#f2dbcd;
-	border-radius: 10px;
-	font-weight: bold;
+    color: #140702;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px;
+    background-color:#f2dbcd;
+    border-radius: 10px;
+    font-weight: bold;
 
 }
 
@@ -50,91 +50,91 @@ nav {
 
 
 .title {
-	text-align: center;
-	margin-top: 50px;
-	
+    text-align: center;
+    margin-top: 50px;
+    
 }
 
 .logo {
-	width: 250px;
-	margin-top: 50px;
-	
+    width: 150px;
+    margin-top: 10px;
+    
 }
 
 
 
 .title span {
     display: block;
-	text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 .text-1 {
-	color: #140702;
-	border-radius: 50px;
-	font-size: 55px;
-	font-weight: 700;
-	letter-spacing: 5px;
-	margin-bottom: 10px;
-	background: #F2DBCD;
-	position: relative;
-	animation: text 1.3s 1;
+    color: #140702;
+    border-radius: 50px;
+    font-size: 55px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    background: #F2DBCD;
+    position: relative;
+    animation: text 1.3s 1;
 
 }
 
 .text-3 {
-	color: #140702;
-	font-size: 20px;
-	font-weight: 800;
-	margin-bottom: 10px;
-	background: #F2DBCD;
-	border-radius: 20px;
-	margin-left: 300px;
-	margin-right: 300px;
+    color: #140702;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    background: #F2DBCD;
+    border-radius: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 h2 {
-	text-align: center;
-	font-size: 50px;
-	margin: 0 auto;
-	margin-top: 100px;
-	color: #140702;
+    text-align: center;
+    font-size: 50px;
+    margin: 0 auto;
+    margin-top: 100px;
+    color: #140702;
 }
 
 .title2 p {
-	text-align: center;
-	margin-top: 1px;
-	margin-bottom: 50px;
-	color: #140702;
-	font-size: 17px;
-	font-weight: bold;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 50px;
+    color: #140702;
+    font-size: 17px;
+    font-weight: bold;
 }
 
 img{
-	width:300px;
+    width:300px;
 }
 
 .range {
-	height: 600px;
-	width: 930px;
+    height: 600px;
+    width: 930px;
 }
 
 
 
 
 @keyframes text {
-	0% {
-		color: black;
-		letter-spacing: 15px;
-		margin-bottom: -60px;
-	}
-	30% {
-		letter-spacing: 20px;
-		margin-bottom: -60px;
-	}
-	85% {
-		letter-spacing: 8px;
-		margin-bottom: -60px;
-	}
+    0% {
+        color: black;
+        letter-spacing: 15px;
+        margin-bottom: -60px;
+    }
+    30% {
+        letter-spacing: 20px;
+        margin-bottom: -60px;
+    }
+    85% {
+        letter-spacing: 8px;
+        margin-bottom: -60px;
+    }
 }
 
 
@@ -161,12 +161,12 @@ img{
     position: absolute;
     overflow: hidden;
     top: 0;
-    left: 0;
+    left: 0
 }
 
 .view img {
     display: block;
-    position: relative;
+    position: relative
 }
 
 .view h2 {
@@ -177,7 +177,7 @@ img{
     font-size: 17px;
     padding: 10px;
     background: rgba(20,7,2,0.8);
-    margin: 20px 0 0 0;
+    margin: 20px 0 0 0
 }
 
 .view p {
@@ -187,7 +187,7 @@ img{
     position: relative;
     color: #F2DBCD;
     padding: 10px 20px 20px;
-    text-align: center;
+    text-align: center
 }
 
 .view a.info {
@@ -197,11 +197,11 @@ img{
     background: #140702;
     color: #F2DBCD;
     text-transform: uppercase;
-    box-shadow: 0 0 1px #000;
+    box-shadow: 0 0 1px #000
 }
 
 .view a.info:hover {
-    box-shadow: 0 0 5px #000;
+    box-shadow: 0 0 5px #000
 }
 
 
@@ -346,3 +346,4 @@ img{
     transform: translateY(0px);
     transition-delay: 0.3s;
 }
+
