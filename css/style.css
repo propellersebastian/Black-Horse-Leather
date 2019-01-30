@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: sans-serif;
@@ -19,8 +19,9 @@ header {
 
 nav {
     position: relative;
-    display: inline-block;
-    width: 780px;
+    /* display: inline-block; */
+    width: 717px;
+    height: 50px;
     float: right;
 
 }
@@ -37,21 +38,24 @@ nav {
 .menu li {
     float: left;
     display: block;
-    padding-left: 38px;
-    padding-right: 38px;
-    height: 32px;
+    /* padding-left: 38px; */
+    /* padding-right: 38px; */
     padding-top: 16px;
+    padding-bottom: 16px;
     
 
 }
 
-.menu a {
+ .menu a { 
     color: #140702;
     font-size: 15px;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
-    
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 38px;
+    padding-right: 38px;
     
     
 }
