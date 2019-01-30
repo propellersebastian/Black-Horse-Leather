@@ -5,38 +5,44 @@
 }
 
 header {
-    background: url(../image/background.jpg);
+    /* background: url(../image/background.jpg); */
     height: 600px;
+    background: #FAEDE8;
 }
 
 
 .container {
     width: 930px;
     margin: 0 auto;
+   
 }
 
 nav {
     position: relative;
     display: inline-block;
-    bottom: 50px;
+    width: 780px;
+    float: right;
 
 }
 
 .menu {
-    padding: 15px;;
-    
+    /* padding: 15px;; */
     display: inline-block;
     background: #F2DBCD;
     border-radius: 2px;
+    
 
 }
-
-
 
 .menu li {
     float: left;
     display: block;
+    padding-left: 38px;
+    padding-right: 38px;
+    height: 32px;
+    padding-top: 16px;
     
+
 }
 
 .menu a {
@@ -44,25 +50,24 @@ nav {
     font-size: 15px;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 15px;
-    background-color:#f2dbcd;
-    padding-left: 20px;
-    padding-right: 20px;
     font-weight: bold;
-    border-radius: 10px;
-
+    
+    
+    
 }
 
 .title {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 90px;
     
 }
 
 .logo {
-    width: 150px;
-    margin-top: 10px;
+    width: 135px;
     display: inline-block;
+   
+   
+   
     
 }
 
@@ -80,7 +85,7 @@ nav {
     font-weight: 700;
     letter-spacing: 5px;
     margin-bottom: 10px;
-    background: #F2DBCD;
+    background: #FAEDE8;
     position: relative;
     animation: text 1.3s 1;
 
@@ -91,7 +96,7 @@ nav {
     font-size: 20px;
     font-weight: 800;
     margin-bottom: 10px;
-    background: #F2DBCD;
+    background: #FAEDE8;
     border-radius: 20px;
     margin-left: 300px;
     margin-right: 300px;
@@ -101,7 +106,7 @@ h2 {
     text-align: center;
     font-size: 50px;
     margin: 0 auto;
-    margin-top: 100px;
+    
     color: #140702;
 }
 
