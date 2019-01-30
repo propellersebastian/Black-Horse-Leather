@@ -5,9 +5,9 @@
 }
 
 header {
-    /* background: url(../image/background.jpg); */
+    background: url(../image/background.jpg);
     height: 600px;
-    background: #FAEDE8;
+    /* background: #FAEDE8; */
 }
 
 
@@ -29,7 +29,7 @@ nav {
     /* padding: 15px;; */
     display: inline-block;
     background: #F2DBCD;
-    border-radius: 2px;
+    border-radius: 3px;
     
 
 }
@@ -85,7 +85,7 @@ nav {
     font-weight: 700;
     letter-spacing: 5px;
     margin-bottom: 10px;
-    background: #FAEDE8;
+    background: #F2DBCD;
     position: relative;
     animation: text 1.3s 1;
 
@@ -96,7 +96,7 @@ nav {
     font-size: 20px;
     font-weight: 800;
     margin-bottom: 10px;
-    background: #FAEDE8;
+    background: #F2DBCD;
     border-radius: 20px;
     margin-left: 300px;
     margin-right: 300px;
