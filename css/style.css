@@ -14,7 +14,7 @@ header {
 .container {
     width: 930px;
     margin: 0 auto;
-   
+    height: 600px;
 }
 
 nav {
@@ -31,6 +31,8 @@ nav {
     display: inline-block;
     background: #F2DBCD;
     border-radius: 3px;
+    position: fixed;
+    z-index: 999;
     
 
 }
@@ -62,17 +64,16 @@ nav {
 
 .title {
     text-align: center;
-    margin-top: 90px;
+    padding-top: 250px;
     
 }
 
 .logo {
-    width: 135px;
+    width: 70px;
     display: inline-block;
+    position: fixed;
+    z-index: 999;
    
-   
-   
-    
 }
 
 
