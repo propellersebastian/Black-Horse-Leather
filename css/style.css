@@ -4,9 +4,13 @@
     font-family: sans-serif;
 }
 
+body {
+    background: #ffeee5;
+}
+
 header {
     background: url(../image/background.jpg);
-    height: 600px;
+    height: 460px;
     /* background: #FAEDE8; */
 }
 
@@ -19,10 +23,12 @@ header {
 
 nav {
     position: relative;
-    /* display: inline-block; */
-    width: 717px;
+    display: inline-block;
+    width: 930px;
     height: 50px;
-    float: right;
+    padding-left: 106px;
+
+
 
 }
 
@@ -31,8 +37,9 @@ nav {
     display: inline-block;
     background: #F2DBCD;
     border-radius: 3px;
-    position: fixed;
-    z-index: 999;
+    /* position: fixed; */
+    /* z-index: 999; */
+   
     
 
 }
@@ -64,15 +71,16 @@ nav {
 
 .title {
     text-align: center;
-    padding-top: 250px;
+    padding-top: 10px;
     
 }
 
 .logo {
-    width: 70px;
+    width: 250px;
     display: inline-block;
-    position: fixed;
-    z-index: 999;
+    position: relative;
+    top: 10px;
+    left: 360px;;
    
 }
 
