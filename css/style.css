@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: sans-serif;
+    
 }
 
 body {
@@ -21,41 +22,74 @@ header {
     height: 600px;
 }
 
-nav {
+
+/*_________________________svg-иконки_______________________*/
+
+.icons-social {
+    position: absolute;
+    left: 300px;
+    top: 5px;
+    display: inline-block; 
+}
+
+.icon-youtube {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url('../image/icon-svg/icon-youtube.svg');
+    
+}
+
+.icon-youtube:hover {
+    background-image: url('../image/icon-svg/icon-youtube-light.svg');
+}
+
+.icon-vk {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url('../image/icon-svg/icon-vk.svg');
+}
+
+.icon-vk:hover {
+    background-image: url('../image/icon-svg/icon-vk-light.svg');
+}
+
+.icon-inst {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url('../image/icon-svg/icon-inst.svg');
+}
+
+.icon-inst:hover {
+    background-image: url('../image/icon-svg/icon-inst-light.svg');
+}
+/* __________________конец svg-иконок___________________________ */
+
+
+
+menu {
+    display: inline-block;
+    border-radius: 3px;
     position: relative;
     display: inline-block;
-    width: 930px;
     height: 50px;
-    padding-left: 106px;
-
-
-
+    margin-left: 111px;
 }
 
-.menu {
-    /* padding: 15px;; */
-    display: inline-block;
-    background: #F2DBCD;
-    border-radius: 3px;
-    /* position: fixed; */
-    /* z-index: 999; */
-   
-    
 
-}
 
-.menu li {
+menu li {
     float: left;
     display: block;
-    /* padding-left: 38px; */
-    /* padding-right: 38px; */
     padding-top: 16px;
     padding-bottom: 16px;
     
 
 }
 
- .menu a { 
+ menu a { 
     color: #140702;
     font-size: 15px;
     text-decoration: none;
@@ -65,8 +99,12 @@ nav {
     padding-bottom: 16px;
     padding-left: 38px;
     padding-right: 38px;
-    
-    
+    background: #F2DBCD;
+}
+
+menu a:hover {
+    color: #F2DBCD;
+    background: #140702;
 }
 
 .title {
@@ -131,6 +169,8 @@ h2 {
     font-size: 17px;
     font-weight: bold;
 }
+
+
 
 img{
     width:300px;
